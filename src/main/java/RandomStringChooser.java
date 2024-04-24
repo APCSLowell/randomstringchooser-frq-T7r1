@@ -5,7 +5,7 @@ private ArrayList<String>he;
   RandomStringChooser(String[] n){
     he=new ArrayList<String>();
     for (String i:n)
-      he.add(n);
+      he.add(i);
   }
   
  public String getNext(){
