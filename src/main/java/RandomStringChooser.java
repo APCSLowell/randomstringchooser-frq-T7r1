@@ -10,7 +10,7 @@ private ArrayList<String>he;
   
  public String getNext(){
    if(he.size()>0){
-    int g=(int)(math.random()he.size());
+    int g=(int)(math.random()*he.size());
     String tem=he.get(g);
    tem.remove(g);
    return tem;
