@@ -7,7 +7,7 @@ private ArrayList<String>he;
       he.add(n);
   }
  public String getNext(){
-   if(he.size()>0;){
+   if(he.size()>0){
    private int g=(int)(math.random()he.size());
    private String tem=he.get(g);
    tem.remove(g);
