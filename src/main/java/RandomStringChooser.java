@@ -12,7 +12,7 @@ private ArrayList<String>he;
    if(he.size()>0){
     int g=(int)(Math.random()*he.size());
     String tem=he.get(g);
-   tem.remove(g);
+   he.remove(g);
    return tem;
    }return "None";
  }
