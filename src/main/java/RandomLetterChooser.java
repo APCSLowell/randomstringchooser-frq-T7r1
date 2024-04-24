@@ -8,10 +8,7 @@ public class RandomLetterChooser extends RandomStringChooser
 		
 	}
 	
-	
-	
-}
- public String[] getSingleLetters(String str)
+	public static String[] getSingleLetters(String str)
 	{ 
 		String[] letterArray = new String[str.length()];
 		for(int i=0; i<str.length(); i++)
@@ -20,3 +17,7 @@ public class RandomLetterChooser extends RandomStringChooser
 		}
 		return letterArray;
 	}
+
+	
+}
+ 
