@@ -4,13 +4,13 @@ public class RandomStringChooser
 private ArrayList<String>he;
   RandomStringChooser(String[] n){
     he=new ArrayList<String>();
-    for (int i:n)
+    for (String i:n)
       he.add(n);
   }
   
  public String getNext(){
    if(he.size()>0){
-    int g=(int)(math.random()*he.size());
+    int g=(int)(Math.random()*he.size());
     String tem=he.get(g);
    tem.remove(g);
    return tem;
