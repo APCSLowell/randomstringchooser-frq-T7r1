@@ -3,7 +3,7 @@ public class RandomLetterChooser extends RandomStringChooser
 	//private String[]jk;
 	public RandomLetterChooser(String str)
 	{ 
-		super(getSingleLetters( str);
+		super(getSingleLetters( str));
 
 		
 	}
