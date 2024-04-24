@@ -10,8 +10,8 @@ private ArrayList<String>he;
   
  public String getNext(){
    if(he.size()>0){
-   private int g=(int)(math.random()he.size());
-   private String tem=he.get(g);
+    int g=(int)(math.random()he.size());
+    String tem=he.get(g);
    tem.remove(g);
    return tem;
    }return "None";
