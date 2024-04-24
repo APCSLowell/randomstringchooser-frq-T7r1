@@ -3,9 +3,11 @@ public class RandomStringChooser
 {
 private ArrayList<String>he;
   RandomStringChooser(String[] n){
+    he=new ArrayList<String>();
     for (int i:n)
       he.add(n);
   }
+  
  public String getNext(){
    if(he.size()>0){
    private int g=(int)(math.random()he.size());
