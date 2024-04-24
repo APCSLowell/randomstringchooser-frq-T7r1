@@ -11,9 +11,7 @@ private ArrayList<String>he;
  public String getNext(){
    if(he.size()>0){
     int g=(int)(Math.random()*he.size());
-    String tem=he.get(g);
-   he.remove(g);
-   return tem;
+   return he.remove(g);
    }return "None";
  }
   //Heads up! 
